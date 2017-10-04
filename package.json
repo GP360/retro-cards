@@ -1,0 +1,22 @@
+{
+  "name": "cardsgp360",
+  "version": "1.0.0",
+  "description": "Web app for the Gropo Premiere 360 retrospective cards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xrgranados/retro-cards.git"
+  },
+  "keywords": [
+    "retro"
+  ],
+  "author": "grupopremiere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xrgranados/retro-cards/issues"
+  },
+  "homepage": "https://github.com/xrgranados/retro-cards#readme"
+}
