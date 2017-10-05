@@ -4,7 +4,11 @@
   "description": "Web app for the Gropo Premiere 360 retrospective cards",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.2.2"
   },
   "repository": {
     "type": "git",
@@ -18,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/xrgranados/retro-cards/issues"
   },
-  "homepage": "https://github.com/xrgranados/retro-cards#readme"
+  "homepage": "https://github.com/xrgranados/retro-cards#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
