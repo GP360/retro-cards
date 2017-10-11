@@ -4,7 +4,7 @@
   "description": "Web app for the Gropo Premiere 360 retrospective cards",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
