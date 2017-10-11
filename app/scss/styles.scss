@@ -3,7 +3,8 @@
 @import 'bourbon/bourbon';
 @import 'utils/gradients';
 
-#login {
+#login,
+#register {
   @include gradient-directional(#47cea6, #afd61a);
 
   #box-login {
