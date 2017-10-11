@@ -1,0 +1,23 @@
+// Styles fronend
+
+@import 'bourbon/bourbon';
+@import 'utils/gradients';
+
+#login {
+  @include gradient-directional(#47cea6, #afd61a);
+
+  #box-login {
+    margin: 25vh auto;
+    padding: 35px;
+
+    img {
+      margin: auto;
+      width: 175px;
+    }
+
+    .mdl-textfield {
+      margin: auto;
+      display: block;
+    }
+  }
+}
